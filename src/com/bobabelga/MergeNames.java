@@ -1,4 +1,4 @@
-package com.bobabelga.mergeTwoSortedLists;
+package com.bobabelga;
 
 
 import java.util.*;
@@ -12,14 +12,12 @@ public class MergeNames {
             if (!uniqueNamesList.contains(name))
                 uniqueNamesArrayList.add(name);
         Set<String> hSet = new HashSet<>(uniqueNamesArrayList);
-
-
         return hSet.toArray(new String[0]);
     }
 
     public static void main(String[] args) {
-        String[] names1 = new String[]{"Ava", "Emma", "Olivia","Ava"};
-        String[] names2 = new String[]{"Olivia", "Sophia", "Emma"};
+        String[] names1 = new String[]{"Ava", "Emma", "Olivia", "Ava"};
+        String[] names2 = new String[]{"Emma","Olivia", "Sophia", "Emma"};
         System.out.println(String.join(", ", MergeNames.uniqueNames(names1, names2))); // should print Ava, Emma, Olivia, Sophia
     }
 }

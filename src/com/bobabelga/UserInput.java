@@ -1,4 +1,4 @@
-package com.bobabelga.mergeTwoSortedLists;
+package com.bobabelga;
 
 public class UserInput {
 
