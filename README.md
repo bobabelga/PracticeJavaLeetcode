@@ -1,2 +1,1 @@
-# PracticeJavaLeetcode
-Practice Java Leetcode
+# Practice Java Leetcode
